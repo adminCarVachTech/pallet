@@ -1,23 +1,12 @@
 {
-    "name": "@fleetbase/pallet-engine",
+    "name": "cvf-pallet-engine",
     "version": "0.0.1",
     "description": "Inventory & Warehouse Management Extension for Fleetbase",
-    "keywords": [
-        "fleetbase-extension",
-        "inventory",
-        "inventory-management",
-        "stock-management",
-        "warehousr",
-        "fleetbase",
-        "ember-addon",
-        "ember-engine"
-    ],
     "fleetbase": {
         "route": "pallet"
     },
-    "repository": "https://github.com/fleetbase/pallet",
+    "repository": "",
     "license": "MIT",
-    "author": "Fleetbase Pte Ltd <hello@fleetbase.io>",
     "directories": {
         "app": "app",
         "addon": "addon",
@@ -39,9 +28,9 @@
         "publish:github": "npm config set '@fleetbase:registry' https://npm.pkg.github.com/ && npm publish"
     },
     "dependencies": {
-        "@fleetbase/ember-core": "^0.1.8",
-        "@fleetbase/ember-ui": "^0.2.5",
-        "@fleetbase/fleetops-data": "^0.1.5",
+        "cvf-ember-core": "*",
+        "cvf-ember-ui": "*",
+        "cvf-fleetops-data": "*",
         "@fortawesome/ember-fontawesome": "^0.4.1",
         "@fortawesome/fontawesome-svg-core": "^6.4.0",
         "@fortawesome/free-solid-svg-icons": "^6.4.0",
